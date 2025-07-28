@@ -3,7 +3,7 @@
 ## Group Details
 
 - EDA- Ambachow
-- Visualization- Cynthia 
+- Visualization- Cynthia and Paul
 - Transformation- Samuel 
 - Statistical Analysis- Justice 
 - Data Mining- Misati (670145)
