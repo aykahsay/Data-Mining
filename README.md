@@ -85,3 +85,9 @@ To handle this the following algorithm was implemented:
    ```bash
    pip install jupyter numpy pandas mlxtend
    ```
+
+  ## Data Visualization 👀
+1. The csv file was loaded onto Power Bi and the various visualizations were applied. 
+2. Slices have been used to show how the data represents for different countries, stockcodes, the 2 years in the dataset and the item descriptions. Giving a clear representation for each.
+3. The powerpoint gives the explanation for each tab.
+   
