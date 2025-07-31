@@ -1,0 +1,37 @@
+Country,TotalAmount,CustomerID,InvoiceNo
+United Kingdom,7859929.465,3950,19857
+Netherlands,286918.02,9,101
+EIRE,281433.28,3,319
+Germany,236084.48,95,603
+France,225496.32,87,458
+Australia,140799.35,9,69
+Spain,68426.39,31,105
+Switzerland,57156.15,21,71
+Belgium,41481.72,25,119
+Sweden,40160.75,8,46
+Japan,39492.119999999995,8,28
+Portugal,37819.97,19,70
+Norway,37187.32,10,40
+Singapore,33438.19,1,10
+Finland,22765.420000000002,12,48
+Channel Islands,20814.59,9,33
+Denmark,19142.54,9,21
+Italy,18075.97,15,55
+Cyprus,14234.47,8,20
+Austria,10243.04,11,19
+Poland,7456.16,6,24
+Israel,7449.13,4,6
+USA,5429.86,4,7
+Greece,4810.52,4,6
+Iceland,4310.0,1,7
+Canada,3666.38,4,6
+Malta,2945.71,2,10
+United Arab Emirates,1902.28,2,3
+Lebanon,1693.88,1,1
+Lithuania,1661.06,1,4
+European Community,1308.75,1,5
+Brazil,1143.6,1,1
+RSA,1003.5600000000001,1,1
+Czech Republic,945.76,1,5
+Bahrain,548.4,2,2
+Saudi Arabia,160.67,1,2
