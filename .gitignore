@@ -27,3 +27,4 @@ venv/
 py_env/
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
+__pycache__
