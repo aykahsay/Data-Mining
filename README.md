@@ -154,48 +154,6 @@ utils/
 └── export_utils.py           # Results export and reporting
 ```
 
-#### Key Features
-- **Reusable Functions**: All analysis components available as importable functions
-- **Error Handling**: Robust error handling with informative messages
-- **Configurable Parameters**: Flexible function parameters for different analysis needs
-- **Professional Visualization**: Publication-ready plots and charts
-- **Comprehensive Reporting**: Automated generation of analysis summaries
-- **Export Capabilities**: Results export to CSV and structured reports
-
-### Notebooks Available
-
-1. **statistical_analysis.ipynb**: Original comprehensive analysis notebook
-2. **statistical_analysis_modular.ipynb**: Streamlined notebook using modular functions
-3. **statistical_analysis_functions.ipynb**: Complete function library in notebook format
-
-### Usage Examples
-
-#### Basic Usage
-```python
-from utils import load_transformed_data, generate_descriptive_stats, customer_behavior_analysis
-
-# Load and analyze data
-df = load_transformed_data("data/transformed/transformed.csv")
-stats = generate_descriptive_stats(df, ['Quantity', 'UnitPrice', 'TotalAmount'])
-customer_stats, behavior_summary = customer_behavior_analysis(df)
-```
-
-#### Advanced Analysis
-```python
-from utils import rfm_analysis, temporal_analysis, correlation_analysis
-
-# Comprehensive customer segmentation
-rfm_results = rfm_analysis(df)
-segment_distribution = rfm_results['Segment'].value_counts()
-
-# Time-based patterns
-temporal_results = temporal_analysis(df)
-best_day = temporal_results['day_of_week']['DOW_Total_Revenue'].idxmax()
-
-# Statistical relationships
-correlation_matrix = correlation_analysis(df)
-```
-
 ### Business Insights Generated
 
 - **Customer Segmentation**: Actionable customer segments for targeted marketing
@@ -269,37 +227,7 @@ correlation_matrix = correlation_analysis(df)
    pip install jupyter numpy pandas matplotlib seaborn scipy scikit-learn mlxtend
    ```
 
-### Running Statistical Analysis
-
-#### Option 1: Modular Approach (Recommended)
-1. Navigate to the notebooks directory:
-   ```bash
-   cd notebooks
-   ```
-2. Launch Jupyter and open `statistical_analysis_modular.ipynb`
-3. This notebook uses the modular utils package for clean, reusable analysis
-
-#### Option 2: Complete Function Library
-1. Open `statistical_analysis_functions.ipynb` for access to all statistical functions in one notebook
-2. Functions are organized by analysis type for easy reference and use
-
-#### Option 3: Original Comprehensive Analysis
-1. Open `statistical_analysis.ipynb` for the complete analysis in a single notebook
-2. Contains all analysis steps with detailed explanations
-
-### Required Data Structure
-- Ensure transformed data is available at: `../data/transformed/transformed.csv`
-- The data should contain columns: InvoiceNo, StockCode, Description, Quantity, InvoiceDate, UnitPrice, CustomerID, Country, TotalAmount
-
-### Key Analysis Outputs
-- Descriptive statistics and distribution analysis
-- Customer segmentation and RFM analysis  
-- Temporal patterns and trend analysis
-- Product performance and geographical insights
-- Correlation analysis and statistical relationships
-- Comprehensive business reports and visualizations
-
-  ## Data Visualization 👀
+## Data Visualization 👀
 1. The csv file was loaded onto Power Bi and the various visualizations were applied. 
 2. Slices have been used to show how the data represents for different countries, stockcodes, the 2 years in the dataset and the item descriptions. Giving a clear representation for each.
 3. The powerpoint gives the explanation for each tab.
