@@ -171,15 +171,6 @@ utils/
 - Data type standardization and validation
 - Duplicate record handling
 
-### Statistical Analysis Techniques
-- **Descriptive Statistics**: Central tendency, dispersion, and shape measures
-- **Inferential Statistics**: Hypothesis testing and confidence intervals
-- **Distribution Analysis**: Normality testing (Shapiro-Wilk, D'Agostino-Pearson)
-- **Correlation Analysis**: Pearson correlation with significance testing
-- **Time Series Analysis**: Temporal pattern recognition and trend analysis
-- **Customer Segmentation**: RFM (Recency, Frequency, Monetary) analysis
-- **Outlier Detection**: Statistical methods for anomaly identification
-
 ### Machine Learning and Data Mining
 - Customer behavior clustering
 - Pattern recognition in temporal data
