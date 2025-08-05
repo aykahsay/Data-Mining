@@ -3,7 +3,7 @@
 ## Group Details
 
 - Exploratory Data Analysis - Ambachow
-- Data Visualization - Cynthia & Paul
+- Data Visualization - Cynthia & Paul (669984)
 - Data Transformation - Samuel 
 - Statistical Analysis- Justice 
 - Data Mining- Misati (670145)
