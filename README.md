@@ -6,7 +6,7 @@
 - Data Visualization - Cynthia & Paul (669984)
 - Data Transformation - Samuel 
 - Statistical Analysis- Justice 
-- Data Mining- Misati (670145)
+- Data Mining- Misati (145)
 
 ## Project Summary
 
@@ -202,7 +202,103 @@ utils/
 - **Python Plotting Libraries**: Custom statistical visualizations
 - **Automated Reporting**: Programmatic report generation
 
-## Data Visualization 👀
-1. The csv file was loaded onto Power Bi and the various visualizations were applied. 
-2. Slices have been used to show how the data represents for different countries, stockcodes, the 2 years in the dataset and the item descriptions. Giving a clear representation for each.
-3. The powerpoint gives the explanation for each tab.
+## Instructions to Run Notebook
+
+### Windows
+
+1. Create a Python virtual environment.
+
+```bash
+python3 -m venv jupyter_env
+```
+
+2. Activate the virtual environment. The first is for PowerShell while the second is for Command Prompt.
+
+```shell
+jupyter_env\Scripts\Activate.ps1
+```
+
+```cmd
+jupyter_env\Scripts\activate.bat
+```
+
+3. Install the required modules.
+
+```bash
+pip install --upgrade pip
+pip install -r requirements.txt
+```
+
+4. Launch the project with either Jupyter Lab or VS Code
+
+```bash
+jupyter lab
+```
+
+```bash
+code .
+```
+
+### Linux
+
+1. Create a Python virtual environment.
+
+```bash
+python3 -m venv jupyter_env
+```
+
+2. Activate the virtual environment.
+
+```bash
+source jupyter_env/bin/activate
+```
+
+3. Install the required modules.
+
+```bash
+pip install --upgrade pip
+pip install -r requirements.txt
+```
+
+4. Launch the project with either Jupyter Lab or VS Code
+
+```bash
+jupyter lab
+```
+
+```bash
+code .
+```
+
+### MacOS
+
+1. Create a Python virtual environment.
+
+```bash
+python3 -m venv jupyter_env
+```
+
+2. Activate the virtual environment.
+
+```bash
+source jupyter_env/bin/activate
+```
+
+3. Install the required modules.
+
+```bash
+pip install --upgrade pip
+pip install -r requirements.txt
+```
+
+4. Launch the project with either Jupyter Lab or VS Code
+
+```bash
+jupyter lab
+```
+
+```bash
+code .
+```
+
+
