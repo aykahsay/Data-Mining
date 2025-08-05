@@ -96,19 +96,13 @@ The statistical analysis module provides comprehensive data analysis capabilitie
 - **Outlier Detection**: Statistical methods for identifying anomalous data points
 - **Professional Reporting**: Formatted statistical tables for business presentations
 
-#### 3. Distribution Analysis
-- **Normality Testing**: Shapiro-Wilk and D'Agostino-Pearson tests
-- **Distribution Visualization**: Histograms, Q-Q plots, box plots
-- **Distribution Comparison**: Side-by-side analysis of multiple variables
-- **Statistical Interpretation**: Automated interpretation of distribution characteristics
-
-#### 4. Correlation Analysis
+#### 3. Correlation Analysis
 - **Correlation Matrix**: Pearson correlation coefficients between numerical variables
 - **Significance Testing**: Statistical significance of correlations with p-values
 - **Visualization**: Heatmaps and scatter plots for correlation relationships
 - **Threshold Filtering**: Configurable significance thresholds for meaningful relationships
 
-#### 5. Customer Behavior Analysis
+#### 4. Customer Behavior Analysis
 - **Customer Metrics**: Transaction frequency, total spending, product diversity
 - **RFM Analysis**: Recency, Frequency, Monetary customer segmentation
 - **Customer Segmentation**: Automated classification into business-relevant segments:
@@ -119,20 +113,20 @@ The statistical analysis module provides comprehensive data analysis capabilitie
   - Cannot Lose Them: High-value customers who haven't purchased recently
 - **Behavioral Insights**: Purchase patterns and customer lifecycle analysis
 
-#### 6. Temporal Pattern Analysis
+#### 5. Temporal Pattern Analysis
 - **Time Series Analysis**: Revenue trends over time periods
 - **Seasonality Detection**: Monthly, daily, and hourly pattern identification
 - **Peak Performance**: Identification of optimal business hours and days
 - **Trend Analysis**: Growth patterns and cyclical behaviors
 - **Forecasting Support**: Foundation for predictive modeling
 
-#### 7. Product Performance Analysis
+#### 6. Product Performance Analysis
 - **Revenue Analysis**: Top-performing products by sales volume and revenue
 - **Product Metrics**: Sales frequency, customer reach, average transaction value
 - **Cross-selling Opportunities**: Product association analysis
 - **Performance Ranking**: Comprehensive product performance scoring
 
-#### 8. Geographical Analysis
+#### 7. Geographical Analysis
 - **Country-wise Performance**: Revenue and customer distribution by geography
 - **Market Penetration**: Customer density and market share analysis
 - **Revenue per Customer**: Geographic profitability analysis
@@ -146,7 +140,6 @@ utils/
 ├── __init__.py                 # Package initialization and imports
 ├── data_loader.py             # Data loading and validation functions
 ├── descriptive_stats.py       # Statistical summary functions
-├── distribution_analysis.py   # Distribution testing and visualization
 ├── correlation_analysis.py    # Correlation analysis and visualization
 ├── customer_analysis.py       # Customer behavior and RFM analysis
 ├── temporal_analysis.py       # Time-based pattern analysis

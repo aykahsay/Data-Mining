@@ -6,7 +6,6 @@ of retail transaction data.
 Modules:
 - data_loader: Data loading and preprocessing utilities
 - descriptive_stats: Descriptive statistics generation
-- distribution_analysis: Distribution analysis and normality testing
 - correlation_analysis: Correlation analysis and relationship exploration
 - customer_analysis: Customer behavior analysis and RFM segmentation
 - temporal_analysis: Temporal pattern analysis
@@ -17,7 +16,6 @@ Modules:
 # Import key functions for easy access
 from .data_loader import load_transformed_data, validate_data, clean_data
 from .descriptive_stats import generate_descriptive_stats, display_stats_table
-from .distribution_analysis import analyze_distributions, test_normality
 from .correlation_analysis import correlation_analysis, significant_correlations
 from .customer_analysis import customer_behavior_analysis, rfm_analysis
 from .temporal_analysis import temporal_analysis, plot_temporal_trends
